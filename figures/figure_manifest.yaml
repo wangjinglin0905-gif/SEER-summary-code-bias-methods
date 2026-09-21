@@ -60,7 +60,8 @@ figures:
       - {id: "b", claim: "cause-specific observed-code HRs", evidence_class: "computed aggregate"}
       - {id: "c", claim: "cancer-to-other HR ratios", evidence_class: "computed aggregate"}
     source_data: ["analysis/seer_descriptive_sensitivity aggregate outputs"]
-    limitations: ["descriptive associations", "no patient-level data", "no simulation-to-SEER calibration"]
+    limitations: ["descriptive associations", "no patient-level data", "no simulation-to-SEER calibration", "RT/CT codes include unknown treatment status"]
+    label_corrected: "2026-09-22"
 quality_checks:
   visual_readback: true
   data_reconciled: true
@@ -71,5 +72,5 @@ quality_checks:
   panel_labels: "lowercase Latin letters"
 
 # Version 1.0.2: Figure 2, 3 and 6 exports and R layout synchronized on 2026-09-21.
-
-# Version 1.0.2: Figure 2, 3 and 6 exports and R layout synchronized on 2026-09-21.
+# Version 1.0.3: Figure 6 RT/CT label corrected; data and other figures unchanged.
+# See verification/release_delta_checks_v1.0.3.json for this patch's check scope.

@@ -1,10 +1,17 @@
 # Bias from treatment summary codes
 
-Version 1.0.2 — 21 September 2026
+Version 1.0.3 — 22 September 2026
 
 Reproducibility materials for **Bias and negative-control behavior when treatment sequences are observed only as summary codes: an ADEMP simulation study with two SEER illustrations**.
 
 This package contains analysis code, synthetic simulation outputs, figure source tables, aggregate-only SEER results and historical verification records. The manuscript is undergoing author review. No individual-level SEER data, ethics documents or manuscript files are included. GitHub release publication and Zenodo archiving are distinct; do not infer a DOI from this package.
+
+## Changes in 1.0.3
+
+- Corrected Figure 6 panel a from "No prior therapy" to "RT/CT codes" in the R source and all four exports. The filter retains radiation coded None/Unknown and chemotherapy coded No/Unknown; these categories do not establish absence of treatment or reconstruct treatment timing.
+- No cohort counts, estimates, analysis inputs or statistical code changed. This is a scientific-label correction, not a statistical rerun. The other five figures are unchanged.
+- The unchanged large synthetic archives remain available with [release v1.0.2](https://github.com/wangjinglin0905-gif/SEER-summary-code-bias-methods/releases/tag/v1.0.2). Use them together with the v1.0.3 code package; their original checksums remain applicable.
+- See `verification/release_delta_checks_v1.0.3.json` for the bounded source/export and unchanged-data checks. Earlier releases remain available.
 
 ## Changes in 1.0.2
 

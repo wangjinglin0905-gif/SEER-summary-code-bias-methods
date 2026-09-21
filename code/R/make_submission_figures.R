@@ -301,7 +301,7 @@ flow <- fread(file.path(seer_dir, "seer_cohort_flow.csv"))
 flow_levels <- c("T1", "first", "hist", "hist_confirm", "site", "M0", "N0NX",
                  "no_therapy", "adult_survival", "surgery")
 flow_labels <- c("T1", "First\nprimary", "Eligible\nhistology", "Histology\nconfirmed",
-                 "Eligible\nsite", "M0", "N0/NX", "No prior\ntherapy",
+                 "Eligible\nsite", "M0", "N0/NX", "RT/CT\ncodes",
                  "Adult +\nsurvival", "Eligible\nsurgery")
 flow[, step_f := factor(step, levels = flow_levels, labels = flow_labels)]
 cohort_cols <- c("CRC" = green, "Bladder" = purple)

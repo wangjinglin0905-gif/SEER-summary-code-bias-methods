@@ -49,8 +49,8 @@
     "quantitative bias analysis",
     "SEER"
   ],
-  "version": "1.0.2",
-  "publication_date": "2026-09-21",
+  "version": "1.0.3",
+  "publication_date": "2026-09-22",
   "notes": "Code: MIT. Original synthetic data, aggregate outputs, figures and documentation: CC BY 4.0. Licenses and authors confirmed on 21 September 2026. This metadata file does not establish a Zenodo record or DOI.",
   "related_identifiers": [
     {
