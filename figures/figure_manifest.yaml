@@ -67,7 +67,7 @@ quality_checks:
   statistics_audited: true
   accessibility_checked: true
   raster_validation: "verification/figure1/figure1_export_qa.json"
-  scope_note: "Figure 1 refreshed 2026-09-08; Figures 2-6 and numerical verification retain their historical audit scope."
+  scope_note: "Figure 1 approved 2026-09-08; Figure 2/3/6 layouts synchronized and all six PNGs reproduced pixel-identically on 2026-09-21. Statistical verification records retain their historical scope."
   panel_labels: "lowercase Latin letters"
 
 # Version 1.0.2: Figure 2, 3 and 6 exports and R layout synchronized on 2026-09-21.

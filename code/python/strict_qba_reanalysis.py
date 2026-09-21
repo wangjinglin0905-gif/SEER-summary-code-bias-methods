@@ -205,7 +205,7 @@ def evaluate(calibration: pd.DataFrame, external: dict) -> tuple[pd.DataFrame, p
         reps = reps[reps.status.eq("ok") & np.isfinite(reps.logHR_c) & np.isfinite(reps.se_c)].copy()
         priors = [
             ("oracle_cell_specific", float(cal.mu_B), float(cal.sd_B),
-             "DGM-informed upper benchmark"),
+             "DGM-informed benchmark"),
             ("global_mechanism_prior", float(external["mu_B"]), float(external["sd_B"]),
              "single prior induced by specified Se/Sp/uhr distributions"),
             ("oracle_mean_x1.25", 1.25 * float(cal.mu_B), float(cal.sd_B),

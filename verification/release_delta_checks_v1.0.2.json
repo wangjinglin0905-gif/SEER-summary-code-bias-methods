@@ -1,12 +1,63 @@
 {
   "date": "2026-09-21",
-  "scope": "release delta only; no statistical rerun",
-  "python_syntax_files": 5,
-  "strict_qba_alias_identical": true,
-  "unused_legacy_aliases_excluded": [
-    "analysis/qba_prior_summary_verified.csv",
-    "source_data/qba_36_scenario_prior_rows.csv"
+  "statistical_rerun": false,
+  "six_figure_R_reproduction": [
+    {
+      "figure": "Figure1_DGM_observation_boundary.png",
+      "size": [
+        1800,
+        1800
+      ],
+      "matches_approved_pixels": true
+    },
+    {
+      "figure": "Figure2_primary_bias_coverage.png",
+      "size": [
+        2160,
+        2100
+      ],
+      "matches_approved_pixels": true
+    },
+    {
+      "figure": "Figure3_directional_signal.png",
+      "size": [
+        2160,
+        1125
+      ],
+      "matches_approved_pixels": true
+    },
+    {
+      "figure": "Figure4_QBA_performance.png",
+      "size": [
+        2160,
+        1710
+      ],
+      "matches_approved_pixels": true
+    },
+    {
+      "figure": "Figure5_H2_pRMST_boundaries.png",
+      "size": [
+        2160,
+        1800
+      ],
+      "matches_approved_pixels": true
+    },
+    {
+      "figure": "Figure6_SEER_descriptive.png",
+      "size": [
+        2160,
+        2010
+      ],
+      "matches_approved_pixels": true
+    }
   ],
+  "annotation_only_changes": [
+    "analysis/strict_qba/strict_qba_summary_36_rows.csv",
+    "analysis/strict_qba/strict_qba_vs_v2_comparison.csv",
+    "source_data/figure4_qba_cell_results.csv",
+    "code/python/strict_qba_reanalysis.py"
+  ],
+  "numeric_columns_unchanged": true,
   "privacy_scan_findings": [],
-  "inventory_files": 153
+  "scope": "R export reproduction and release delta; historical statistical verification reused"
 }
