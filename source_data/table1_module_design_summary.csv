@@ -1,0 +1,7 @@
+module,scenario_groups,replicates_per_group,total_datasets,design
+Primary high-event family,36,"5,000","180,000","n=5,000/50,000; Se/Sp 3; uhr 3; eff 2"
+CRC-anchored low-event family,18,"2,000","36,000","n=50,000; Se/Sp 3; uhr 3; eff 2"
+Bladder-anchored low-event family,18,"2,000","36,000","n=50,000; Se/Sp 3; uhr 3; eff 2"
+QBA evaluation,9,"5,000","45,000","Four bias distributions; independent oracle calibration 100 x n=1,000,000"
+Negative-control boundary (H2),7,"2,000","14,000",Piecewise other-cause multipliers
+pRMST sensitivity,12,"1,000","12,000","Bootstrap B=1,000; corrected deterministic truths"

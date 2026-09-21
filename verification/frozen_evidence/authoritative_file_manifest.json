@@ -1,0 +1,57 @@
+[
+  {
+    "path": "analysis/strict_cox_rerun/strict_primary_registry_72_rows.csv",
+    "bytes": 5777,
+    "sha256": "722b3976550c5926c727a7ec6dbe6a6577992b519dd79e33d1e8a64a1e3f3294"
+  },
+  {
+    "path": "analysis/strict_cox_rerun/strict_primary_summary_72_rows.csv",
+    "bytes": 32373,
+    "sha256": "39b728a5294dbe39f9a746478748ebcd40673c3a2dc10e6a2a788f540073d208"
+  },
+  {
+    "path": "analysis/strict_cox_rerun/strict_h2_summary_7_rows.csv",
+    "bytes": 1958,
+    "sha256": "ed95593b28023b8bdfa6bc5b4ab470e6a7e4b0ab251e5f10e0efe092a3b1dd4d"
+  },
+  {
+    "path": "analysis/strict_qba/strict_qba_summary_36_rows.csv",
+    "bytes": 9710,
+    "sha256": "128c9d35b48f3d06566bba468a6f7b8902892cba92e26feab37b848392eeb318"
+  },
+  {
+    "path": "analysis/strict_qba/oracle_calibration_summary_9_rows.csv",
+    "bytes": 933,
+    "sha256": "97a9ef25a120289f767bbccec0c36f5f1a045abcb369d7b5fbc4604bbd230e57"
+  },
+  {
+    "path": "analysis/strict_qba/global_mechanism_prior_200_raw_draws.csv",
+    "bytes": 26152,
+    "sha256": "1bdae79210a937a7076b32f402dcb2ba4c1631ec974ae6a606ac9abbb5e64421"
+  },
+  {
+    "path": "analysis/rmst_standard_ato/rmst_standard_ato_rescored_12_scenarios.csv",
+    "bytes": 5288,
+    "sha256": "f138915a75732e7540f5d44291b00a699fa0a96b5e917a3aaa3bdfd6c11c18f1"
+  },
+  {
+    "path": "analysis/rmst_standard_ato/rmst_standard_ato_truths.csv",
+    "bytes": 1055,
+    "sha256": "f5b35ca1be30bc1a4809691934ecfe9a8559b85211bf1f20a17cc1ab125bb8a4"
+  },
+  {
+    "path": "analysis/seer_descriptive_sensitivity/seer_endpoint_models.csv",
+    "bytes": 1394,
+    "sha256": "5195a56409b21774255848fb216939e6087756a36d22298d463a6217ca2960b5"
+  },
+  {
+    "path": "analysis/seer_descriptive_sensitivity/seer_joint_contrasts.csv",
+    "bytes": 834,
+    "sha256": "ef78e3548dc9d0195f6324fa7a6205f6e32e813d438669df2c949d9573614f5e"
+  },
+  {
+    "path": "analysis/cox_full_sandwich_validation_1200_fits.csv",
+    "bytes": 308741,
+    "sha256": "3d1f9d84436d7dcd72ec51a7ebe46930bf16db581664aad0234d6f20fdfaedac"
+  }
+]

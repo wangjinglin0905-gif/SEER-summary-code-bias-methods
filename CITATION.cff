@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite the associated manuscript and archived release."
+title: "Bias from treatment summary codes: simulation and SEER aggregate reproducibility materials"
+type: software
+version: 1.0.2
+date-released: 2026-09-21
+authors:
+  - family-names: Wang
+    given-names: Jinglin
+    affiliation: "Department of Digestive Disease, Guizhou Provincial People's Hospital, Guiyang, China; Department of Geriatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang, China"
+    orcid: "https://orcid.org/0000-0002-7389-1022"
+  - family-names: Sun
+    given-names: Pan
+    affiliation: "Department of Geriatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang, China"
+  - family-names: Xu
+    given-names: Lei
+    affiliation: "Department of Geriatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang, China"
+  - family-names: Wang
+    given-names: Yao
+    affiliation: "Department of Geriatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang, China"
+  - family-names: Zhu
+    given-names: Wei
+    affiliation: "Department of Geriatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang, China"
+  - family-names: Zhang
+    given-names: Yan
+    affiliation: "Department of Geriatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang, China"
+  - family-names: Tang
+    given-names: Yao
+    affiliation: "Department of Geriatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang, China"
+  - family-names: Yang
+    given-names: Juan
+    affiliation: "Department of Geriatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang, China"
+    orcid: "https://orcid.org/0009-0001-2081-6950"
+keywords:
+  - causal inference
+  - exposure misclassification
+  - negative-control outcome
+  - overlap weighting
+  - quantitative bias analysis
+  - SEER
+license:
+  - MIT
+  - CC-BY-4.0
+repository-code: https://github.com/wangjinglin0905-gif/SEER-summary-code-bias-methods

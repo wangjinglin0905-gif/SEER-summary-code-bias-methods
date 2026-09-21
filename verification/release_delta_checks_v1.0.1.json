@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-08",
+  "frozen_csv_files_compared": 83,
+  "numerical_table_differences": [],
+  "statistical_source_files_compared": 8,
+  "statistical_source_differences": [],
+  "Figures2_to_6_differences": [],
+  "python_sources_ast_parsed": 5,
+  "R_sources_parsed": 5,
+  "environment_correction": "numpy==2.3.5; pandas==3.0.1; versions recorded by historical Cox/QBA runs, not a new full analysis verification",
+  "public_path_normalization": "Provenance strings only; private mapping retained outside package",
+  "statistical_rerun": false,
+  "remote_upload": false
+}

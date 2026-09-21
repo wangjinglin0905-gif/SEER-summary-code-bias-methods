@@ -1,0 +1,5 @@
+exposure,n,cancer_deaths_5y,other_deaths_5y,all_deaths_5y,cohort
+Local procedure,15545,720,1938,2717,CRC
+Oncologic resection,38490,1278,3678,5022,CRC
+Local procedure,34543,4957,6127,11222,Bladder
+Cystectomy,1957,247,212,465,Bladder

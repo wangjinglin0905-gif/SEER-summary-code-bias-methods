@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-21",
+  "scope": "release delta only; no statistical rerun",
+  "python_syntax_files": 5,
+  "strict_qba_alias_identical": true,
+  "unused_legacy_aliases_excluded": [
+    "analysis/qba_prior_summary_verified.csv",
+    "source_data/qba_36_scenario_prior_rows.csv"
+  ],
+  "privacy_scan_findings": [],
+  "inventory_files": 153
+}

@@ -1,0 +1,38 @@
+{
+  ".png": {
+    "pixels": [
+      1800,
+      1800
+    ],
+    "dpi": [
+      299.9994,
+      299.9994
+    ],
+    "mode": "RGB",
+    "bytes": 133331,
+    "compression": null
+  },
+  ".tiff": {
+    "pixels": [
+      3600,
+      3600
+    ],
+    "dpi": [
+      600.0,
+      600.0
+    ],
+    "mode": "RGB",
+    "bytes": 433176,
+    "compression": "tiff_lzw"
+  },
+  "png_matches_author_approved_bytes": true,
+  "pdf_pages": 1,
+  "pdf_size_pt": [
+    432.0,
+    432.0
+  ],
+  "date": "2026-09-08",
+  "scope": "Figure 1 export and geometry only; no statistical rerun",
+  "visual_review": "PNG and manuscript embedded rendering inspected; standalone PDF raster checked separately",
+  "svg": "editable source; structure-only validation"
+}

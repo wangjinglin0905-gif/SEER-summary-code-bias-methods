@@ -1,0 +1,109 @@
+cohort,variable,level,exposure,n,unweighted_value,weighted_value,crude_smd,weighted_smd
+CRC,age,mean (SD),Local procedure,15545,64.28 (12.53),63.89,0.0427471580427354,1.97546668392439e-13
+CRC,age,mean (SD),Oncologic resection,38490,64.80 (12.00),63.89,0.0427471580427354,1.97546668392439e-13
+CRC,year,mean (SD),Local procedure,15545,2013.22 (5.53),2012.99,0.104221698482152,0
+CRC,year,mean (SD),Oncologic resection,38490,2012.65 (5.46),2012.99,0.104221698482152,0
+CRC,sex,Female,Local procedure,6522,6522 (42.0%),43.2%,0.106686232017057,6.19782126595329e-14
+CRC,sex,Female,Oncologic resection,18187,18187 (47.3%),43.2%,0.106686232017057,6.19782126595329e-14
+CRC,sex,Male,Local procedure,9023,9023 (58.0%),56.8%,0.106686232017057,6.23144416613025e-14
+CRC,sex,Male,Oncologic resection,20303,20303 (52.7%),56.8%,0.106686232017057,6.23144416613025e-14
+CRC,race,American Indian/Alaska Native,Local procedure,148,148 (1.0%),0.9%,0.0201145762359657,5.73695989557624e-15
+CRC,race,American Indian/Alaska Native,Oncologic resection,295,295 (0.8%),0.9%,0.0201145762359657,5.73695989557624e-15
+CRC,race,Asian or Pacific Islander,Local procedure,1686,1686 (10.8%),10.7%,0.0544772457656835,9.7462868883817e-14
+CRC,race,Asian or Pacific Islander,Oncologic resection,3545,3545 (9.2%),10.7%,0.0544772457656835,9.7462868883817e-14
+CRC,race,Black,Local procedure,1508,1508 (9.7%),9.8%,0.0251270408555477,1.00441302906281e-13
+CRC,race,Black,Oncologic resection,4025,4025 (10.5%),9.8%,0.0251270408555477,1.00441302906281e-13
+CRC,race,Unknown,Local procedure,407,407 (2.6%),1.3%,0.155761094314087,4.46276922802648e-14
+CRC,race,Unknown,Oncologic resection,250,250 (0.6%),1.3%,0.155761094314087,4.46276922802648e-14
+CRC,race,White,Local procedure,11796,11796 (75.9%),77.3%,0.0725820805825289,1.08661489506582e-14
+CRC,race,White,Oncologic resection,30375,30375 (78.9%),77.3%,0.0725820805825289,1.08661489506582e-14
+CRC,marital,Married,Local procedure,7964,7964 (51.2%),56.1%,0.180377351230489,1.29755113093594e-14
+CRC,marital,Married,Oncologic resection,23154,23154 (60.2%),56.1%,0.180377351230489,1.29755113093594e-14
+CRC,marital,Never married,Local procedure,2232,2232 (14.4%),14.7%,0.0232070256057742,6.97265687624961e-15
+CRC,marital,Never married,Oncologic resection,5217,5217 (13.6%),14.7%,0.0232070256057742,6.97265687624961e-15
+CRC,marital,Divorced/separated,Local procedure,1426,1426 (9.2%),9.5%,0.0182319736952678,1.48347622233592e-14
+CRC,marital,Divorced/separated,Oncologic resection,3736,3736 (9.7%),9.5%,0.0182319736952678,1.48347622233592e-14
+CRC,marital,Widowed,Local procedure,1663,1663 (10.7%),10.6%,0.0283510275674273,7.86606942831949e-14
+CRC,marital,Widowed,Oncologic resection,4461,4461 (11.6%),10.6%,0.0283510275674273,7.86606942831949e-14
+CRC,marital,Unknown,Local procedure,2260,2260 (14.5%),9.1%,0.32577385763434,8.57160851947554e-14
+CRC,marital,Unknown,Oncologic resection,1922,1922 (5.0%),9.1%,0.32577385763434,8.57160851947554e-14
+CRC,sitegrp,Proximal colon,Local procedure,1686,1686 (10.8%),15.7%,0.746009127734071,1.05423044732816e-12
+CRC,sitegrp,Proximal colon,Oncologic resection,16007,16007 (41.6%),15.7%,0.746009127734071,1.05423044732816e-12
+CRC,sitegrp,Distal colon,Local procedure,6715,6715 (43.2%),46.0%,0.117764021136173,4.632553742522e-13
+CRC,sitegrp,Distal colon,Oncologic resection,14407,14407 (37.4%),46.0%,0.117764021136173,4.632553742522e-13
+CRC,sitegrp,Rectum/rectosigmoid,Local procedure,7144,7144 (46.0%),38.3%,0.548823499309036,3.1481649965505e-13
+CRC,sitegrp,Rectum/rectosigmoid,Oncologic resection,8076,8076 (21.0%),38.3%,0.548823499309036,3.1481649965505e-13
+CRC,sizegrp,<=20 mm,Local procedure,6059,6059 (39.0%),42.9%,0.165144260835875,2.92881609668104e-13
+CRC,sizegrp,<=20 mm,Oncologic resection,18139,18139 (47.1%),42.9%,0.165144260835875,2.92881609668104e-13
+CRC,sizegrp,21-50 mm,Local procedure,1221,1221 (7.9%),10.5%,0.365217682551402,4.28632119285128e-14
+CRC,sizegrp,21-50 mm,Oncologic resection,7837,7837 (20.4%),10.5%,0.365217682551402,4.28632119285128e-14
+CRC,sizegrp,>50 mm,Local procedure,117,117 (0.8%),1.1%,0.153360541881144,3.62265336137266e-12
+CRC,sizegrp,>50 mm,Oncologic resection,1063,1063 (2.8%),1.1%,0.153360541881144,3.62265336137266e-12
+CRC,sizegrp,Unknown,Local procedure,8148,8148 (52.4%),45.6%,0.473415110027817,4.78266386995266e-13
+CRC,sizegrp,Unknown,Oncologic resection,11451,11451 (29.8%),45.6%,0.473415110027817,4.78266386995266e-13
+CRC,gradegrp,Low (I-II),Local procedure,11790,11790 (75.8%),78.9%,0.199665098058627,1.16427493980026e-13
+CRC,gradegrp,Low (I-II),Oncologic resection,32261,32261 (83.8%),78.9%,0.199665098058627,1.16427493980026e-13
+CRC,gradegrp,High (III-IV),Local procedure,574,574 (3.7%),4.3%,0.108105493419169,4.42360686913546e-14
+CRC,gradegrp,High (III-IV),Oncologic resection,2314,2314 (6.0%),4.3%,0.108105493419169,4.42360686913546e-14
+CRC,gradegrp,Unknown,Local procedure,3181,3181 (20.5%),16.8%,0.288720177387948,1.51683673844885e-13
+CRC,gradegrp,Unknown,Oncologic resection,3915,3915 (10.2%),16.8%,0.288720177387948,1.51683673844885e-13
+CRC,histgrp,Conventional/other adenocarcinoma,Local procedure,15353,15353 (98.8%),98.6%,0.0823458110996985,1.19119615467373e-13
+CRC,histgrp,Conventional/other adenocarcinoma,Oncologic resection,37596,37596 (97.7%),98.6%,0.0823458110996985,1.19119615467373e-13
+CRC,histgrp,Mucinous,Local procedure,176,176 (1.1%),1.3%,0.0786876582895386,1.16543350869625e-13
+CRC,histgrp,Mucinous,Oncologic resection,819,819 (2.1%),1.3%,0.0786876582895386,1.16543350869625e-13
+CRC,histgrp,Signet-ring cell,Local procedure,16,16 (0.1%),0.1%,0.0238435711330471,2.54001202514237e-14
+CRC,histgrp,Signet-ring cell,Oncologic resection,75,75 (0.2%),0.1%,0.0238435711330471,2.54001202514237e-14
+Bladder,age,mean (SD),Local procedure,34543,71.65 (11.56),67.32,0.415524814249906,2.45831230673709e-11
+Bladder,age,mean (SD),Cystectomy,1957,67.08 (10.43),67.32,0.415524814249906,2.45831230673709e-11
+Bladder,year,mean (SD),Local procedure,34543,2012.84 (5.54),2012.65,0.0330191481499836,1.50694778725863e-12
+Bladder,year,mean (SD),Cystectomy,1957,2012.66 (5.43),2012.65,0.0330191481499836,1.50694778725863e-12
+Bladder,sex,Female,Local procedure,7319,7319 (21.2%),18.7%,0.064867982465637,3.23869577328528e-12
+Bladder,sex,Female,Cystectomy,364,364 (18.6%),18.7%,0.064867982465637,3.23869577328528e-12
+Bladder,sex,Male,Local procedure,27224,27224 (78.8%),81.3%,0.064867982465637,3.23890927143553e-12
+Bladder,sex,Male,Cystectomy,1593,1593 (81.4%),81.3%,0.064867982465637,3.23890927143553e-12
+Bladder,race,American Indian/Alaska Native,Local procedure,111,111 (0.3%),0.4%,0.0145004913648864,2.91217758385125e-13
+Bladder,race,American Indian/Alaska Native,Cystectomy,8,8 (0.4%),0.4%,0.0145004913648864,2.91217758385125e-13
+Bladder,race,Asian or Pacific Islander,Local procedure,1786,1786 (5.2%),5.8%,0.0330742348299709,5.46122800039129e-13
+Bladder,race,Asian or Pacific Islander,Cystectomy,116,116 (5.9%),5.8%,0.0330742348299709,5.46122800039129e-13
+Bladder,race,Black,Local procedure,1879,1879 (5.4%),6.4%,0.042269423109434,8.70508065211815e-13
+Bladder,race,Black,Cystectomy,126,126 (6.4%),6.4%,0.042269423109434,8.70508065211815e-13
+Bladder,race,Unknown,Local procedure,300,300 (0.9%),0.3%,0.0735711644550461,2.18325718040517e-13
+Bladder,race,Unknown,Cystectomy,6,6 (0.3%),0.3%,0.0735711644550461,2.18325718040517e-13
+Bladder,race,White,Local procedure,30467,30467 (88.2%),87.1%,0.0388343876175305,3.45303506606704e-13
+Bladder,race,White,Cystectomy,1701,1701 (86.9%),87.1%,0.0388343876175305,3.45303506606704e-13
+Bladder,marital,Married,Local procedure,20448,20448 (59.2%),66.7%,0.162055871250647,4.76120710999023e-12
+Bladder,marital,Married,Cystectomy,1311,1311 (67.0%),66.7%,0.162055871250647,4.76120710999023e-12
+Bladder,marital,Never married,Local procedure,3977,3977 (11.5%),12.6%,0.0370955370241809,2.27015859197656e-12
+Bladder,marital,Never married,Cystectomy,249,249 (12.7%),12.6%,0.0370955370241809,2.27015859197656e-12
+Bladder,marital,Divorced/separated,Local procedure,2937,2937 (8.5%),8.9%,0.0119973400798209,2.19157915463886e-12
+Bladder,marital,Divorced/separated,Cystectomy,173,173 (8.8%),8.9%,0.0119973400798209,2.19157915463886e-12
+Bladder,marital,Widowed,Local procedure,4808,4808 (13.9%),8.3%,0.185819966498999,1.32861345344874e-11
+Bladder,marital,Widowed,Cystectomy,159,159 (8.1%),8.3%,0.185819966498999,1.32861345344874e-11
+Bladder,marital,Unknown,Local procedure,2373,2373 (6.9%),3.5%,0.16188174690352,2.77985427868383e-13
+Bladder,marital,Unknown,Cystectomy,65,65 (3.3%),3.5%,0.16188174690352,2.77985427868383e-13
+Bladder,sitegrp,Trigone,Local procedure,1965,1965 (5.7%),4.1%,0.0794321174755404,8.58707439292641e-14
+Bladder,sitegrp,Trigone,Cystectomy,78,78 (4.0%),4.1%,0.0794321174755404,8.58707439292641e-14
+Bladder,sitegrp,Main wall,Local procedure,12737,12737 (36.9%),28.9%,0.18691322931646,3.25697409495486e-13
+Bladder,sitegrp,Main wall,Cystectomy,551,551 (28.2%),28.9%,0.18691322931646,3.25697409495486e-13
+Bladder,sitegrp,Special/NOS,Local procedure,19841,19841 (57.4%),67.0%,0.216675603637679,3.50211394543904e-13
+Bladder,sitegrp,Special/NOS,Cystectomy,1328,1328 (67.9%),67.0%,0.216675603637679,3.50211394543904e-13
+Bladder,sizegrp,<=20 mm,Local procedure,4174,4174 (12.1%),15.6%,0.109956532634068,1.00995760655598e-12
+Bladder,sizegrp,<=20 mm,Cystectomy,311,311 (15.9%),15.6%,0.109956532634068,1.00995760655598e-12
+Bladder,sizegrp,21-50 mm,Local procedure,10096,10096 (29.2%),27.4%,0.0488585141276897,3.94691211764466e-13
+Bladder,sizegrp,21-50 mm,Cystectomy,529,529 (27.0%),27.4%,0.0488585141276897,3.94691211764466e-13
+Bladder,sizegrp,>50 mm,Local procedure,3101,3101 (9.0%),17.3%,0.27532371175768,1.14802089136194e-12
+Bladder,sizegrp,>50 mm,Cystectomy,359,359 (18.3%),17.3%,0.27532371175768,1.14802089136194e-12
+Bladder,sizegrp,Unknown,Local procedure,17172,17172 (49.7%),39.7%,0.222427743062064,2.21567312654546e-13
+Bladder,sizegrp,Unknown,Cystectomy,758,758 (38.7%),39.7%,0.222427743062064,2.21567312654546e-13
+Bladder,gradegrp,Low (I-II),Local procedure,6389,6389 (18.5%),8.0%,0.329158410190355,1.12592911280384e-12
+Bladder,gradegrp,Low (I-II),Cystectomy,148,148 (7.6%),8.0%,0.329158410190355,1.12592911280384e-12
+Bladder,gradegrp,High (III-IV),Local procedure,25673,25673 (74.3%),86.5%,0.325837561003421,8.47132972898314e-13
+Bladder,gradegrp,High (III-IV),Cystectomy,1703,1703 (87.0%),86.5%,0.325837561003421,8.47132972898314e-13
+Bladder,gradegrp,Unknown,Local procedure,2481,2481 (7.2%),5.5%,0.0727330659579968,6.89392759202811e-14
+Bladder,gradegrp,Unknown,Cystectomy,106,106 (5.4%),5.5%,0.0727330659579968,6.89392759202811e-14
+Bladder,histgrp,Other urothelial,Local procedure,184,184 (0.5%),2.1%,0.16458331124091,1.33778199173369e-12
+Bladder,histgrp,Other urothelial,Cystectomy,50,50 (2.6%),2.1%,0.16458331124091,1.33778199173369e-12
+Bladder,histgrp,Papillary UC,Local procedure,25364,25364 (73.4%),68.1%,0.127984626793471,9.15837939988427e-13
+Bladder,histgrp,Papillary UC,Cystectomy,1323,1323 (67.6%),68.1%,0.127984626793471,9.15837939988427e-13
+Bladder,histgrp,UC NOS,Local procedure,8995,8995 (26.0%),29.8%,0.0847989970915434,5.17673119183952e-13
+Bladder,histgrp,UC NOS,Cystectomy,584,584 (29.8%),29.8%,0.0847989970915434,5.17673119183952e-13

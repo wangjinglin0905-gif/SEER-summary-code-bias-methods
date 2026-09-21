@@ -1,0 +1,62 @@
+{
+  "title": "Bias from treatment summary codes: simulation and SEER aggregate reproducibility materials",
+  "upload_type": "software",
+  "description": "Analysis code, synthetic results, aggregate-only SEER outputs, source tables and verification materials for a known-truth ADEMP simulation study. No individual-level SEER records are distributed.",
+  "creators": [
+    {
+      "name": "Wang, Jinglin",
+      "affiliation": "Department of Digestive Disease, Guizhou Provincial People's Hospital, Guiyang, China; Department of Geriatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang, China",
+      "orcid": "0000-0002-7389-1022"
+    },
+    {
+      "name": "Sun, Pan",
+      "affiliation": "Department of Geriatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang, China"
+    },
+    {
+      "name": "Xu, Lei",
+      "affiliation": "Department of Geriatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang, China"
+    },
+    {
+      "name": "Wang, Yao",
+      "affiliation": "Department of Geriatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang, China"
+    },
+    {
+      "name": "Zhu, Wei",
+      "affiliation": "Department of Geriatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang, China"
+    },
+    {
+      "name": "Zhang, Yan",
+      "affiliation": "Department of Geriatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang, China"
+    },
+    {
+      "name": "Tang, Yao",
+      "affiliation": "Department of Geriatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang, China"
+    },
+    {
+      "name": "Yang, Juan",
+      "orcid": "0009-0001-2081-6950",
+      "affiliation": "Department of Geriatrics, The Affiliated Hospital of Guizhou Medical University, Guiyang, China"
+    }
+  ],
+  "access_right": "open",
+  "license": "other-open",
+  "keywords": [
+    "causal inference",
+    "observational data",
+    "exposure misclassification",
+    "negative controls",
+    "overlap weighting",
+    "quantitative bias analysis",
+    "SEER"
+  ],
+  "version": "1.0.2",
+  "publication_date": "2026-09-21",
+  "notes": "Code: MIT. Original synthetic data, aggregate outputs, figures and documentation: CC BY 4.0. Licenses and authors confirmed on 21 September 2026. This metadata file does not establish a Zenodo record or DOI.",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/wangjinglin0905-gif/SEER-summary-code-bias-methods",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+# Core packages recorded in the executed Cox and QBA provenance (21 August 2026).
+# Original execution: Python 3.12.13. This is not a full OS-level lockfile.
+numpy==2.3.5
+pandas==3.0.1

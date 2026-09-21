@@ -1,0 +1,11 @@
+R >= 4.4
+data.table
+survival
+splines (base/recommended)
+ggplot2
+patchwork
+scales
+grid (base)
+ragg
+
+jsonlite

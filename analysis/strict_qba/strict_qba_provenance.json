@@ -1,0 +1,14 @@
+{
+  "completed_at_local": "2026-08-21 21:40:17",
+  "elapsed_seconds": 339.05073595046997,
+  "oracle_n": 1000000,
+  "oracle_repetitions": 100,
+  "external_mapping_draws": 200,
+  "external_uhr_distribution": "Normal(mean=0.40, sd=0.10) truncated by accept-reject to [0.15,0.80]",
+  "qba_application": "analytic Normal convolution; no inner Monte Carlo",
+  "strict_cox_source": "analysis/strict_cox_rerun",
+  "script_sha256": "A9D9BA1A45993FD713C25170D56DBA3E07E1975B2F807F1F5BD9DB087DAD1D74",
+  "python": "3.12.13",
+  "numpy": "2.3.5",
+  "pandas": "3.0.1"
+}

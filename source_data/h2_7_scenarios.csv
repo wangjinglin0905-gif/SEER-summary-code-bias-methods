@@ -1,0 +1,8 @@
+scenario_id,name,m1,m2,n,eta_c0,eta_o0,description,uhr,se,sp,eff,successful,failed,median_hr_o,median_n_cancer,median_n_other,median_n_censored,median_ess,two_sided_detection,protective_direction_signal,mcse_two_sided,mcse_protective
+901,no_direct_effect_under_confounding,1.0,1.0,50000,-0.8,-0.5,"no direct effect, uhr=0.5 confounding present",0.5,0.9,0.9,0.85,2000,0,0.9185079726974944,25222.0,20066.5,4713.0,48434.75026735056,1.0,1.0,0.0,0.0
+902,h2_harm_early,1.5,1.0,50000,-0.8,-0.5,harmful early transient (0-0.5y x1.5),0.5,0.9,0.9,0.85,2000,0,1.1763652887150151,23783.0,21778.0,4441.0,48436.470703144536,1.0,0.0,0.0,0.0
+903,h2_harm_sustained,1.5,1.5,50000,-0.8,-0.5,harmful sustained (x1.5 all time),0.5,0.9,0.9,0.85,2000,0,1.2462321138078902,23397.0,22247.0,4356.0,48430.75064965217,1.0,0.0,0.0,0.0
+904,h2_protect_early,0.67,1.0,50000,-0.8,-0.5,protective early transient (0-0.5y x0.67),0.5,0.9,0.9,0.85,2000,0,0.7418957317565974,26380.0,18697.0,4922.0,48436.172004295775,1.0,1.0,0.0,0.0
+905,h2_protect_sustained,0.67,0.67,50000,-0.8,-0.5,protective sustained (x0.67 all time),0.5,0.9,0.9,0.85,2000,0,0.6801535555124416,26927.0,18033.0,5038.5,48432.98834208095,1.0,1.0,0.0,0.0
+906,h2_harm_early_low,1.5,1.0,50000,4.2074,3.1726,"harmful early, CRC low-event anchor",0.5,0.9,0.9,0.85,2000,0,0.9802448407274,1522.0,4718.0,43760.0,48434.57479120897,0.0965,0.093,0.0066025657891459,0.0064942667022536
+907,h2_null_noconf,1.0,1.0,50000,-0.8,-0.5,"no confounding, no treatment effect (nominal-level control)",1.0,0.9,0.9,0.85,2000,0,0.9998668463053152,25707.5,20451.0,3841.0,48434.95871744418,0.0495,0.023,0.0048502448391808,0.0033519397369284

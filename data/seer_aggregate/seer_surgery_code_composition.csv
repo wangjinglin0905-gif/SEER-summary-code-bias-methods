@@ -1,0 +1,53 @@
+exposure,surg_code,n,cohort,percent_within_group
+Local procedure,20,572,CRC,3.67963975554841
+Local procedure,21,1,CRC,0.00643293663557414
+Local procedure,22,1044,CRC,6.7159858475394
+Local procedure,23,16,CRC,0.102926986169186
+Local procedure,24,30,CRC,0.192988099067224
+Local procedure,25,17,CRC,0.10935992280476
+Local procedure,26,6667,CRC,42.8883885493728
+Local procedure,27,1914,CRC,12.3126407204889
+Local procedure,28,4768,CRC,30.6722418784175
+Local procedure,29,516,CRC,3.31939530395626
+Oncologic resection,30,21837,CRC,56.7342166796571
+Oncologic resection,31,63,CRC,0.163678877630553
+Oncologic resection,32,267,CRC,0.693686671862822
+Oncologic resection,40,14538,CRC,37.7708495713172
+Oncologic resection,41,449,CRC,1.16653676279553
+Oncologic resection,50,806,CRC,2.094050402702
+Oncologic resection,51,65,CRC,0.168875032475968
+Oncologic resection,55,5,CRC,0.012990387113536
+Oncologic resection,56,1,CRC,0.0025980774227072
+Oncologic resection,57,2,CRC,0.00519615484541439
+Oncologic resection,60,244,CRC,0.633930891140556
+Oncologic resection,61,12,CRC,0.0311769290724864
+Oncologic resection,65,7,CRC,0.0181865419589504
+Oncologic resection,66,2,CRC,0.00519615484541439
+Oncologic resection,70,76,CRC,0.197453884125747
+Oncologic resection,80,116,CRC,0.301376981034035
+Local procedure,10,13,Bladder,0.0376342529600787
+Local procedure,11,2,Bladder,0.00578988507078135
+Local procedure,12,100,Bladder,0.289494253539067
+Local procedure,14,4,Bladder,0.0115797701415627
+Local procedure,15,7,Bladder,0.0202645977477347
+Local procedure,16,75,Bladder,0.2171206901543
+Local procedure,20,646,Bladder,1.87013287786237
+Local procedure,21,9,Bladder,0.0260544828185161
+Local procedure,22,4743,Bladder,13.730712445358
+Local procedure,23,43,Bladder,0.124482529021799
+Local procedure,24,85,Bladder,0.246070115508207
+Local procedure,25,37,Bladder,0.107112873809455
+Local procedure,26,16,Bladder,0.0463190805662508
+Local procedure,27,28763,Bladder,83.2672321454419
+Cystectomy,30,347,Bladder,17.7312212570261
+Cystectomy,50,71,Bladder,3.62800204394481
+Cystectomy,60,220,Bladder,11.2416964741952
+Cystectomy,61,461,Bladder,23.5564639754727
+Cystectomy,62,72,Bladder,3.67910066428206
+Cystectomy,63,17,Bladder,0.868676545733265
+Cystectomy,64,47,Bladder,2.40163515585079
+Cystectomy,70,62,Bladder,3.16811446090956
+Cystectomy,71,622,Bladder,31.7833418497701
+Cystectomy,72,13,Bladder,0.664282064384262
+Cystectomy,73,2,Bladder,0.102197240674502
+Cystectomy,80,23,Bladder,1.17526826775677

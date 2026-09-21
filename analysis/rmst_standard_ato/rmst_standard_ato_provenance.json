@@ -1,0 +1,12 @@
+{
+  "estimand": "Difference in 5-y partial restricted mean time without cancer death under true strategies S*=1 vs S*=0 in the X2-defined true-strategy overlap population",
+  "target_density": "h(X2)=e_S(X2){1-e_S(X2)}; U independent of X2 in DGM, so target truth averages U with P(U=1)=0.30",
+  "competing_risk_functional": "integral_0^5 [1-CIF_c(t)] dt; other-cause death is competing, not part of the event definition",
+  "truth_method": "512-node Gauss-Legendre quadrature of tau - integral_0^tau (tau-t) S_all(t) lambda_c(t) dt, with 256-node difference and dense-grid Simpson cross-check",
+  "archived_interval_source": "data/synthetic/rmst_archived_intervals",
+  "archived_summary_sha256": "0BA9C469E0B63EF5EFD568AD1F1A6F5936F8B506E25BD54E6AE36B4C64F8DB29",
+  "script_sha256": "179458A80530FF3564DACB50ECFE91A686B8D5D783DF78B505A4F6DB3879A418",
+  "python": "3.12.13",
+  "numpy": "2.3.5",
+  "pandas": "3.0.1"
+}

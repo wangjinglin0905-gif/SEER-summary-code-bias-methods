@@ -1,0 +1,75 @@
+project: "SEER BMC MRM audited revision"
+target_journal: "BMC Medical Research Methodology"
+created_local: "2026-08-21"
+software:
+  plotting_backend: "R"
+  versions:
+    R: "4.6.1"
+    ggplot2: "4.0.3"
+    patchwork: "1.3.2"
+    ragg: "1.5.2"
+    data.table: "1.18.4"
+script: "code/R/make_submission_figures.R"
+common_exports:
+  editable: ["SVG", "PDF"]
+  submission: ["TIFF 600 dpi LZW"]
+  preview: ["PNG 300 dpi"]
+figures:
+  - figure_id: "Figure1"
+    title: "Data-generating mechanism and observation boundary"
+    panels: [{evidence_class: "illustrative simulation schematic"}]
+    layout_approved: "2026-09-08"
+    dedicated_script: "code/R/make_figure1.R"
+    geometry_checks: "verification/figure1/figure1_geometry_qa.json"
+    source_data: ["strict Cox/H2 DGM specification"]
+    limitations: ["H2 path applies only to assumption-violation scenarios", "censoring is independent"]
+  - figure_id: "Figure2"
+    title: "Primary relative-error and coverage maps"
+    panels:
+      - {id: "a", claim: "relative error at n=5000", evidence_class: "computed"}
+      - {id: "b", claim: "relative error at n=50000", evidence_class: "computed"}
+      - {id: "c", claim: "coverage at n=5000", evidence_class: "computed"}
+      - {id: "d", claim: "coverage at n=50000", evidence_class: "computed"}
+    source_data: ["analysis/strict_cox_rerun/strict_primary_summary_72_rows.csv"]
+  - figure_id: "Figure3"
+    title: "Directional other-cause signal by event-rate regime"
+    panels:
+      - {id: "a", claim: "main family n=5000", evidence_class: "computed"}
+      - {id: "b", claim: "main family n=50000", evidence_class: "computed"}
+      - {id: "c", claim: "case-informed low-event families", evidence_class: "computed"}
+    source_data: ["source_data/figure3_directional_signal_summary.csv"]
+  - figure_id: "Figure4"
+    title: "QBA performance under alternative bias distributions"
+    panels:
+      - {id: "a", claim: "grid-level coverage", evidence_class: "computed"}
+      - {id: "b", claim: "pooled log-HR bias", evidence_class: "computed"}
+      - {id: "c", claim: "pooled interval-width ratio", evidence_class: "computed"}
+    source_data: ["analysis/strict_qba/strict_qba_summary_36_rows.csv"]
+    limitations: ["oracle is DGM-informed", "global distribution is not externally validated"]
+  - figure_id: "Figure5"
+    title: "Negative-control and pRMST boundary analyses"
+    panels:
+      - {id: "a", claim: "direction-specific H2 exclusions", evidence_class: "computed"}
+      - {id: "b", claim: "core pRMST bias", evidence_class: "computed"}
+      - {id: "c", claim: "raw and recentered coverage", evidence_class: "computed diagnostic"}
+    source_data: ["analysis/strict_cox_rerun/strict_h2_summary_7_rows.csv", "analysis/rmst_standard_ato/rmst_standard_ato_rescored_12_scenarios.csv"]
+  - figure_id: "Figure6"
+    title: "SEER cohort flow and descriptive observed-code estimates"
+    panels:
+      - {id: "a", claim: "post-T1 cohort flow", evidence_class: "measured aggregate"}
+      - {id: "b", claim: "cause-specific observed-code HRs", evidence_class: "computed aggregate"}
+      - {id: "c", claim: "cancer-to-other HR ratios", evidence_class: "computed aggregate"}
+    source_data: ["analysis/seer_descriptive_sensitivity aggregate outputs"]
+    limitations: ["descriptive associations", "no patient-level data", "no simulation-to-SEER calibration"]
+quality_checks:
+  visual_readback: true
+  data_reconciled: true
+  statistics_audited: true
+  accessibility_checked: true
+  raster_validation: "verification/figure1/figure1_export_qa.json"
+  scope_note: "Figure 1 refreshed 2026-09-08; Figures 2-6 and numerical verification retain their historical audit scope."
+  panel_labels: "lowercase Latin letters"
+
+# Version 1.0.2: Figure 2, 3 and 6 exports and R layout synchronized on 2026-09-21.
+
+# Version 1.0.2: Figure 2, 3 and 6 exports and R layout synchronized on 2026-09-21.

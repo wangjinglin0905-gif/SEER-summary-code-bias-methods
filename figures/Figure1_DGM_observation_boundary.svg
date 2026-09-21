@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="6in" height="6in" viewBox="0 0 1320 1320">
+<title>Simulation assumptions and the summary-code observation boundary</title>
+<desc>Eight nodes and ten directed edges. The only dashed edge is S to other-cause death, present in H2 only. No edge connects C to the observed endpoint.</desc>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="7" refY="3.5" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L7,3.5 L0,7 Z" fill="#344653"/></marker><marker id="accent" markerWidth="7" markerHeight="7" refX="7" refY="3.5" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L7,3.5 L0,7 Z" fill="#A56819"/></marker></defs>
+<rect width="1320" height="1320" fill="white"/>
+<rect x="62" y="29" width="26" height="26" fill="#F0F5F8" stroke="#40647B" stroke-width="2.86458"/>
+<text x="110" y="42" fill="#40647B" font-family="Arial, Helvetica, sans-serif" font-size="30.5556" font-weight="bold" text-anchor="start" dominant-baseline="central">Simulated processes</text>
+<rect x="742" y="29" width="26" height="26" fill="#FFF2DC" stroke="#A56819" stroke-width="2.86458"/>
+<text x="790" y="42" fill="#A56819" font-family="Arial, Helvetica, sans-serif" font-size="30.5556" font-weight="bold" text-anchor="start" dominant-baseline="central">Recorded variables</text>
+<polyline id="F1-E01" data-from="U" data-to="S" points="370,265 570,545" fill="none" stroke="#344653" stroke-width="3.20833" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline id="F1-E02" data-from="X" data-to="S" points="650,305 650,545" fill="none" stroke="#344653" stroke-width="3.20833" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline id="F1-E03" data-from="U" data-to="Tc" points="250,305 250,545" fill="none" stroke="#344653" stroke-width="3.20833" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline id="F1-E04" data-from="U" data-to="To" points="250,175 250,110 1230,110 1230,880 780,880" fill="none" stroke="#344653" stroke-width="3.20833" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline id="F1-E05" data-from="S" data-to="Tc" points="540,600 380,600" fill="none" stroke="#344653" stroke-width="3.20833" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline id="F1-E06" data-from="S" data-to="To" points="650,655 650,825" fill="none" stroke="#344653" stroke-width="3.20833" stroke-linejoin="round" stroke-dasharray="14 10" marker-end="url(#arrow)"/>
+<polyline id="F1-E07" data-from="S" data-to="C" points="760,600 900,600" fill="none" stroke="#A56819" stroke-width="3.20833" stroke-linejoin="round" marker-end="url(#accent)"/>
+<polyline id="F1-E08" data-from="Tc" data-to="Obs" points="250,655 250,1140 480,1140" fill="none" stroke="#344653" stroke-width="3.20833" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline id="F1-E09" data-from="To" data-to="Obs" points="650,935 650,1080" fill="none" stroke="#344653" stroke-width="3.20833" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline id="F1-E10" data-from="Cens" data-to="Obs" points="960,1140 820,1140" fill="none" stroke="#344653" stroke-width="3.20833" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="130" y="175" width="240" height="130" fill="#F0F5F8" stroke="#40647B" stroke-width="2.86458"/>
+<text x="250" y="205" fill="#344653" font-family="Arial, Helvetica, sans-serif" font-size="28.1111" font-weight="bold" text-anchor="middle" dominant-baseline="central">U</text>
+<text x="250" y="240" fill="#344653" font-family="Arial, Helvetica, sans-serif" font-size="28.1111" font-weight="normal" text-anchor="middle" dominant-baseline="central">health reserve</text>
+<text x="250" y="275" fill="#344653" font-family="Arial, Helvetica, sans-serif" font-size="28.1111" font-weight="normal" text-anchor="middle" dominant-baseline="central">(unmeasured)</text>
+<rect x="555" y="175" width="190" height="130" fill="#F0F5F8" stroke="#40647B" stroke-width="2.86458"/>
+<text x="650" y="205" fill="#344653" font-family="Arial, Helvetica, sans-serif" font-size="28.1111" font-weight="bold" text-anchor="middle" dominant-baseline="central">X</text>
+<text x="650" y="240" fill="#344653" font-family="Arial, Helvetica, sans-serif" font-size="28.1111" font-weight="normal" text-anchor="middle" dominant-baseline="central">age proxy</text>
+<text x="650" y="275" fill="#344653" font-family="Arial, Helvetica, sans-serif" font-size="28.1111" font-weight="normal" text-anchor="middle" dominant-baseline="central">(measured)</text>
+<rect x="540" y="545" width="220" height="110" fill="#F0F5F8" stroke="#40647B" stroke-width="2.86458"/>
+<text x="650" y="582.5" fill="#344653" font-family="Arial, Helvetica, sans-serif" font-size="28.1111" font-weight="bold" text-anchor="middle" dominant-baseline="central">S*</text>
+<text x="650" y="617.5" fill="#344653" font-family="Arial, Helvetica, sans-serif" font-size="28.1111" font-weight="normal" text-anchor="middle" dominant-baseline="central">true strategy</text>
+<rect x="120" y="545" width="260" height="110" fill="#F0F5F8" stroke="#40647B" stroke-width="2.86458"/>
+<text x="250" y="582.5" fill="#344653" font-family="Arial, Helvetica, sans-serif" font-size="28.1111" font-weight="normal" text-anchor="middle" dominant-baseline="central">Cancer-death</text>
+<text x="250" y="617.5" fill="#344653" font-family="Arial, Helvetica, sans-serif" font-size="28.1111" font-weight="normal" text-anchor="middle" dominant-baseline="central">time</text>
+<rect x="520" y="825" width="260" height="110" fill="#F0F5F8" stroke="#40647B" stroke-width="2.86458"/>
+<text x="650" y="862.5" fill="#344653" font-family="Arial, Helvetica, sans-serif" font-size="28.1111" font-weight="normal" text-anchor="middle" dominant-baseline="central">Other-cause</text>
+<text x="650" y="897.5" fill="#344653" font-family="Arial, Helvetica, sans-serif" font-size="28.1111" font-weight="normal" text-anchor="middle" dominant-baseline="central">death time</text>
+<rect x="900" y="545" width="260" height="110" fill="#FFF2DC" stroke="#A56819" stroke-width="2.86458"/>
+<text x="1030" y="582.5" fill="#344653" font-family="Arial, Helvetica, sans-serif" font-size="28.1111" font-weight="bold" text-anchor="middle" dominant-baseline="central">C</text>
+<text x="1030" y="617.5" fill="#344653" font-family="Arial, Helvetica, sans-serif" font-size="28.1111" font-weight="normal" text-anchor="middle" dominant-baseline="central">summary code</text>
+<rect x="480" y="1080" width="340" height="120" fill="#FFF2DC" stroke="#A56819" stroke-width="2.86458"/>
+<text x="650" y="1122.5" fill="#344653" font-family="Arial, Helvetica, sans-serif" font-size="28.1111" font-weight="normal" text-anchor="middle" dominant-baseline="central">Observed endpoint</text>
+<text x="650" y="1157.5" fill="#344653" font-family="Arial, Helvetica, sans-serif" font-size="28.1111" font-weight="normal" text-anchor="middle" dominant-baseline="central">and follow-up</text>
+<rect x="960" y="1085" width="240" height="110" fill="#F0F5F8" stroke="#40647B" stroke-width="2.86458"/>
+<text x="1080" y="1122.5" fill="#344653" font-family="Arial, Helvetica, sans-serif" font-size="28.1111" font-weight="normal" text-anchor="middle" dominant-baseline="central">Independent</text>
+<text x="1080" y="1157.5" fill="#344653" font-family="Arial, Helvetica, sans-serif" font-size="28.1111" font-weight="normal" text-anchor="middle" dominant-baseline="central">censoring</text>
+<text x="460" y="558" fill="#344653" font-family="Arial, Helvetica, sans-serif" font-size="26.2778" font-weight="normal" text-anchor="middle" dominant-baseline="central">eff</text>
+<text x="755" y="745" fill="#344653" font-family="Arial, Helvetica, sans-serif" font-size="26.2778" font-weight="normal" text-anchor="middle" dominant-baseline="central">H2 only</text>
+<text x="830" y="558" fill="#A56819" font-family="Arial, Helvetica, sans-serif" font-size="26.2778" font-weight="normal" text-anchor="middle" dominant-baseline="central">Se / Sp</text>
+<text x="1030" y="695" fill="#A56819" font-family="Arial, Helvetica, sans-serif" font-size="25.9722" font-weight="normal" text-anchor="middle" dominant-baseline="central">Analysis exposure</text>
+<text x="65" y="1240" fill="#344653" font-family="Arial, Helvetica, sans-serif" font-size="24.4444" font-weight="normal" text-anchor="start" dominant-baseline="central">Solid arrows: core DGM assumptions; dashed arrow: H2 assumption-violation scenarios.</text>
+<text x="65" y="1285" fill="#344653" font-family="Arial, Helvetica, sans-serif" font-size="24.4444" font-weight="normal" text-anchor="start" dominant-baseline="central">These are simulation assumptions, not causal effects established in SEER.</text>
+</svg>

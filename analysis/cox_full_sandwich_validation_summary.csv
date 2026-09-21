@@ -1,0 +1,2 @@
+fits,max_abs_beta_full_vs_R,max_abs_se_full_vs_R,median_abs_se_full_vs_R,max_abs_relative_se_full_vs_R,max_abs_relative_se_old_vs_R,max_abs_score_residual_sum,elapsed_seconds
+1200,2.5468119471405704e-06,2.6845149013465797e-08,1.74946862552261e-13,6.618172005978806e-07,0.014502755646530474,9.887912710837554e-11,11.692028760910034

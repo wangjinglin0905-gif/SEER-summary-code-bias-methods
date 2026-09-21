@@ -1,0 +1,19 @@
+"id","x","y","w","h","label","recorded"
+"U",250,240,240,130,"U
+health reserve
+(unmeasured)",FALSE
+"X",650,240,190,130,"X
+age proxy
+(measured)",FALSE
+"S",650,600,220,110,"S*
+true strategy",FALSE
+"Tc",250,600,260,110,"Cancer-death
+time",FALSE
+"To",650,880,260,110,"Other-cause
+death time",FALSE
+"C",1030,600,260,110,"C
+summary code",TRUE
+"Obs",650,1140,340,120,"Observed endpoint
+and follow-up",TRUE
+"Cens",1080,1140,240,110,"Independent
+censoring",FALSE

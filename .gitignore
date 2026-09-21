@@ -1,0 +1,9 @@
+data/large/
+verification/cox_reverification/R_coxph_estimates_rerun.csv
+.Rhistory
+.RData
+__pycache__/
+*.pyc
+
+# Internal manuscript review records are not release materials.
+docs/audit_reports/

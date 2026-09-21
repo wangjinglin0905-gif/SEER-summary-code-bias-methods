@@ -1,0 +1,8 @@
+{
+  "fits": 1200,
+  "max_abs_beta_difference": 2.5468119471405704e-06,
+  "max_abs_robust_se_difference": 2.6845149013465797e-08,
+  "median_abs_robust_se_difference": 1.74946862552261e-13,
+  "max_abs_score_residual_sum": 9.887912710837554e-11,
+  "passed": true
+}

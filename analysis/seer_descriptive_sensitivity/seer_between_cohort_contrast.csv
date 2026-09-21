@@ -1,0 +1,2 @@
+contrast,log_ratio,robust_se,ratio,lower,upper,p_value,interpretation
+Bladder ratio / CRC ratio,0.221195295766891,0.115591468772004,1.24756705133828,0.994650377442805,1.56479460811785,0.0556718811945762,exploratory descriptive contrast

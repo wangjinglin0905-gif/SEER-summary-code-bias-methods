@@ -1,0 +1,21 @@
+{
+  "status": "author_approved_2026-09-08",
+  "date": "2026-09-08",
+  "node_count": 8,
+  "edge_count": 10,
+  "exact_edge_set_pass": true,
+  "border_anchoring_pass": true,
+  "edge_node_intersections": [],
+  "connector_crossings": [],
+  "dashed_edge": "S>To (H2 only)",
+  "C_to_Obs_absent": true,
+  "straight_edges": 8,
+  "polyline_bends": 4,
+  "geometry_helper_tests_pass": true,
+  "layout": "aligned U/X and cancer-death/S rows; Tc to Obs enters left boundary",
+  "requested_alignment_pass": true,
+  "Tc_to_Obs_single_bend": true,
+  "dimensions_inches": [6, 6],
+  "png_dpi": 300,
+  "note": "Geometry checks only; author approved the v04 layout; export review is recorded separately. No statistical analysis run."
+}

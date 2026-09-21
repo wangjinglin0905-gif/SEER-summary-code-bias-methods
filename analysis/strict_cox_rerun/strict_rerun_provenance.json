@@ -1,0 +1,12 @@
+{
+  "completed_at_local": "2026-08-21 21:31:50",
+  "elapsed_seconds": 1768.7205035686493,
+  "master_seed": 20260817,
+  "seed_scheme": "SeedSequence([master_seed, scenario_id]); replicate SeedSequence([scenario_seed, replicate_id])",
+  "cox_variance": "full individual score-residual sandwich",
+  "validation_file": "analysis/cox_full_sandwich_validation_summary.csv",
+  "python": "3.12.13",
+  "numpy": "2.3.5",
+  "pandas": "3.0.1",
+  "script_sha256": "7987D82F39C190944A677948D1883C4884AD484C61BA62BBD551062355160D8A"
+}
